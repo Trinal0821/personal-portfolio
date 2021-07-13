@@ -1,0 +1,37 @@
+.about-me > .profile-pic img {
+ border-radius: 50%;
+ width: 300px;
+ height: 300px;
+ border: 2px solid blue;
+}
+
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 200px;
+ }
+
+.about-me > .profile-pic {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 50px
+}
+
+.about-me > .info > h1 {
+  display: grid;
+  grid-template-rows: 10px 90px;
+  position: relative;
+  left: 30px;
+}
+
+/* .about-me > .info > h1 > #changeDescription {
+  display: grid;
+  grid-template-rows: 10px 10px;
+  position: absolute;
+  right: 40px;
+} */
+
+
+
+

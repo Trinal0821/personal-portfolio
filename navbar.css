@@ -20,7 +20,7 @@ body {
    padding: 10px;
    position: relative;
    bottom: 50px;
-   padding-right: 20px;
+   padding-right: 50px;
 }
 
 .nav-bar > .links a {
@@ -31,22 +31,18 @@ body {
   text-decoration: none;
 }
 
-.homepageLink + .contactLink {
+.homepageLink + .projectLink {
   margin-left: 20px;
 }
 
-.contactLink + .projectLink {
-  margin-left: 20px;
-}
-
- .projectLink + .about-meLink {
+.projectLink + .contactLink{
   margin-left: 20px;
 }
 
 .nav-bar > .right-column > h3 {
   color: white;
   font-size: 45px;
-  padding-left: 20px;
+  padding-left: 50px;
   font-family: 'Pacifico', cursive;
   position: relative;
   bottom: 45px;
