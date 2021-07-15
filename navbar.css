@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  /* position: absolute;*/
 } 
 
 .nav-bar {
@@ -47,3 +46,4 @@ body {
   position: relative;
   bottom: 45px;
 }
+

@@ -1,6 +1,6 @@
-var descriptions = ["I am a student", "I am a software engineer intern", "I am a mentor"];
-
+var descriptions = [ "I'm a student", "I'm a software engineer intern", "I'm a mentor"];
 var counter = 0;
+change();
 var timer = setInterval(change, 5000);
 
 function change() {
