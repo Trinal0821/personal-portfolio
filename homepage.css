@@ -8,7 +8,10 @@
 .about-me {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;  
   padding-top: 100px;
+  grid-gap: 1em;
+  
 }
 
 .about-me>.profile-pic {
@@ -25,22 +28,15 @@
   left: 30px;
 }
 
-/* .about-me > .info > h1{
-  float: left;
+.about-me > .info > .introduction{
+  font-size: 65px;
 }
 
-.about-me > .info > h1 > #changeDescription{
-  float: left;
-} */
+.about-me > .info {
+  padding-left: 0px;
+} 
 
-/* .about-me > .info > h1 > #changeDescription {
-  display: grid;
-  grid-template-rows: 10px 10px;
-  position: absolute;
-  right: 40px;
-} */
-
-.about-me>.info>h1>#changeDescription {
+.about-me> .info > h1 >#changeDescription {
   position: relative;
-  bottom: 80px;
+  bottom: 60px;
 }

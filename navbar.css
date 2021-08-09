@@ -1,49 +1,58 @@
 body {
   margin: 0;
+  font-family: 'Oswald', sans-serif;
 } 
 
 .nav-bar {
   width: 100%;
-  height: 75px;
+  height: 150px;
   background-color: #7596FF;
-  margin-top: 0 auto;
-  padding: 1px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* margin-top: 0 auto;
+  padding: 1px; 
+  /* display: grid;
+  grid-template-columns: 1.10fr 100px; */
 }
 
-.nav-bar > .links {
-  display: flex;
-  justify-content: flex-end;
-   align-items: center;
-   padding: 10px;
-   position: relative;
-   bottom: 50px;
-   padding-right: 50px;
-}
 
-.nav-bar > .links a {
+.nav-bar > .center-column > .links a {
   color: white;
+display: inline-block;
+padding: 30px;
 }
 
-.nav-bar > .links a:link {
+.nav-bar > .center-column > .links a:link {
   text-decoration: none;
 }
 
-.homepageLink + .projectLink {
-  margin-left: 20px;
+.nav-bar > .center-column > .links {
+/* display: grid;
+grid-template-columns: .1fr .1fr .1fr .1fr;
+/* padding-left: 40px;
+grid-gap: 0px; */
+text-align: center;
+margin: 0;
+padding: 0;
 }
 
-.projectLink + .contactLink{
-  margin-left: 20px;
+
+
+.nav-bar {
+  
 }
 
-.nav-bar > .right-column > h3 {
+.nav-bar > .center-column {
+display: grid;
+grid-template-rows: 130px 130px;
+text-align: center;
+position: relative;
+bottom: 50px;
+}
+
+.nav-bar > .center-column > .logo > h3{
   color: white;
   font-size: 45px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   font-family: 'Pacifico', cursive;
-  position: relative;
-  bottom: 45px;
+ 
 }
 
