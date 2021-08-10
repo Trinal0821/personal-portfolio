@@ -2,41 +2,62 @@
   border-radius: 50%;
   width: 300px;
   height: 100%;
-  /* border: 2px solid blue; */
 }
 
 .about-me {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;  
-  padding-top: 100px;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 10px 300px 10px;
   grid-gap: 1em;
-  
 }
 
 .about-me>.profile-pic {
+  display: grid;
+  grid-row-start: 2;
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 50px
+  top: 40px;
 }
 
-.about-me> .info > h1 {
-  display: grid;
-  grid-template-rows: 10px 90px;
-  position: relative;
-  left: 30px;
+.about-me>.info>h1 {
+  display: flex;
+  justify-content: flex-start;
+  /* position: relative;
+  left: 30px; */
 }
 
-.about-me > .info > .introduction{
+.about-me>.info>.introduction {
   font-size: 65px;
 }
 
-.about-me > .info {
-  padding-left: 0px;
-} 
+.about-me>.info {
+  display: grid;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  /* padding-right: 80px; */
+}
 
-.about-me> .info > h1 >#changeDescription {
+.about-me>.info>h1>#changeDescription {
   position: relative;
   bottom: 60px;
+}
+
+.about-me>.info>.learn-more {
+  display: grid;
+  grid-row-start: 3;
+  grid-template-columns: .1fr 1fr;
+}
+
+.about-me>.info>.learn-more i {
+  font-size: 70px;
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: flex-start; */
+  margin-top: 15px;
+}
+
+.about-me>.info>.learn-more h1 {
+  display: flex;
+  justify-content: flex-start;
 }
